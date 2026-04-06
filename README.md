@@ -29,54 +29,93 @@ Displays relationships between products
 This project uses a Graph Data Structure implemented using Adjacency List.
 
 **🔹 Components:**
+
 Nodes (Vertices): Products
+
 Edges: Recommendations between products
+
 **🔹 Implementation:**
+
 Linked List → Stores all products
+
 Adjacency List → Stores recommendations for each product
+
 Product → Linked List of Products
         → Each product has its own Edge list (recommendations)
 
 ---
 
 ## ⚙ Algorithm Explanation
+
 **1. Add Product**
+
 Input product ID and name
+
 Check if ID already exists
+
 Insert new node at beginning of linked list
+
+
 **2. Delete Product**
+
 Find product node
+
 Remove all edges pointing to it
+
 Delete its adjacency list
+
 Remove node from linked list
+
+
 **3. Update Product**
+
 Search by ID
+
 Replace product name
-**4. Search Product*8
+
+
+**4. Search Product**
+
 Traverse linked list
+
 Match ID
+
+
 **5. Display Products**
+
 Traverse all nodes
+
 Print product details
+
 Print adjacency list (recommendations)
-**6. Add Recommendation*8
+
+
+**6. Add Recommendation**
+
 Find source and destination product
+
 Create edge
+
 Insert into adjacency list
 
 ---
 
 ## 💻 Compilation Instructions
+
 **🔹 Step 1: Save File**
 
 Save your code as:
 
 marketplace.c
+
+
 **🔹 Step 2: Compile**
 
 Use GCC compiler:
 
 gcc marketplace.c -o marketplace
+
+
 **🔹 Step 3: Run**
 ./marketplace
 
