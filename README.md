@@ -38,12 +38,12 @@ This project uses a Graph Data Structure implemented using Adjacency List.
 
 **🔹 Implementation:**
 
-Linked List → Stores all products
+        Linked List → Stores all products
 
-Adjacency List → Stores recommendations for each product
+        Adjacency List → Stores recommendations for each product
 
-Product → Linked List of Products
-        → Each product has its own Edge list (recommendations)
+        Product → Linked List of Products
+                → Each product has its own Edge list (recommendations)
 
 ---
 
@@ -51,54 +51,54 @@ Product → Linked List of Products
 
 **1. Add Product**
 
-Input product ID and name
+        Input product ID and name
 
-Check if ID already exists
+        Check if ID already exists
 
-Insert new node at beginning of linked list
+        Insert new node at beginning of linked list
 
 
 **2. Delete Product**
 
-Find product node
+        Find product node
 
-Remove all edges pointing to it
+        Remove all edges pointing to it
 
-Delete its adjacency list
+        Delete its adjacency list
 
-Remove node from linked list
+        Remove node from linked list
 
 
 **3. Update Product**
 
-Search by ID
+        Search by ID
 
-Replace product name
+        Replace product name
 
 
 **4. Search Product**
 
-Traverse linked list
+        Traverse linked list
 
-Match ID
+        Match ID
 
 
 **5. Display Products**
 
-Traverse all nodes
+        Traverse all nodes
 
-Print product details
+        Print product details
 
-Print adjacency list (recommendations)
+        Print adjacency list (recommendations)
 
 
 **6. Add Recommendation**
 
-Find source and destination product
+        Find source and destination product
 
-Create edge
+        Create edge
 
-Insert into adjacency list
+        Insert into adjacency list
 
 ---
 
@@ -106,24 +106,25 @@ Insert into adjacency list
 
 **🔹 Step 1: Save File**
 
-Save your code as:
+        Save your code as:
 
-marketplace.c
+                marketplace.c
 
 
 **🔹 Step 2: Compile**
 
-Use GCC compiler:
+        Use GCC compiler:
 
-gcc marketplace.c -o marketplace
+                gcc marketplace.c -o marketplace
 
 
 **🔹 Step 3: Run**
-./marketplace
+    
+        ./marketplace
 
-(For Windows:)
+        (For Windows:)
 
-marketplace.exe
+                marketplace.exe
 
 ---
 
