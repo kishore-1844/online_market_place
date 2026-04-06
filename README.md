@@ -8,7 +8,9 @@ README.md
 ---
 
 ## 👨‍💻 Team Members
+
 Member 1: K.V.S.Kishore
+
 Member 2: M.Mineesh
 
 ---
@@ -30,9 +32,9 @@ This project uses a Graph Data Structure implemented using Adjacency List.
 
 **🔹 Components:**
 
-Nodes (Vertices): Products
+        Nodes (Vertices): Products
 
-Edges: Recommendations between products
+        Edges: Recommendations between products
 
 **🔹 Implementation:**
 
