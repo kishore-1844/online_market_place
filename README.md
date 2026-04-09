@@ -11,7 +11,7 @@ README.md
 
 Member 1: K.V.S.Kishore
 
-Member 2: M.Mineesh
+
 
 ---
 
