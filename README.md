@@ -9,8 +9,8 @@ README.md
 
 ## 👨‍💻 Team Members
 
-Member 1: K.V.S.Kishore
-
+Member 1: K.V.S.Kishore.
+member 2: M.mineesh reddy.
 
 
 ---
